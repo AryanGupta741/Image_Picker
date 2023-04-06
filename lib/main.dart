@@ -5,7 +5,7 @@ import 'Login.dart';
 import 'Sign_In.dart';
 import 'homescreen.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
 }
 
@@ -22,6 +22,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: useless(),
     );
   }
