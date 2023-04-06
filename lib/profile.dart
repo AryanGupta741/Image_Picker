@@ -31,10 +31,10 @@ class _profileScreenState extends State<profileScreen> {
       appBar: AppBar(
         leading: IconButton(
             onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => homeScreen()),
-              );
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(builder: (context) => homeScreen()),
+              // );
             },
             icon: const Icon(Icons.arrow_back_sharp)),
         title: Center(
@@ -164,11 +164,11 @@ class _profileScreenState extends State<profileScreen> {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: InkWell(
-                             onTap: () {
-                                    selectOption = e;
-                                    isOpen = false;
-                                    setState(() {});
-                                  },
+                              onTap: () {
+                                selectOption = e;
+                                isOpen = false;
+                                setState(() {});
+                              },
                               child: Text(e)),
                         ),
                       ),

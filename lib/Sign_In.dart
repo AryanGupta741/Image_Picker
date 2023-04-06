@@ -19,14 +19,12 @@ class _Sign_InState extends State<Sign_In> {
     return Scaffold(
       body: Column(
         children: [
-         
-        
-           Image.asset(
-                'img/Icecream.png',
-                height: 300,
-                width: 300,
-              ), 
-          
+          Image.asset(
+            'img/Icecream.png',
+            height: 300,
+            width: 300,
+          ),
+
           SizedBox(
             width: 0,
             height: 0,
@@ -116,10 +114,12 @@ class _Sign_InState extends State<Sign_In> {
               width: 160,
               height: 50,
               child: ElevatedButton(
-                onPressed: ( ) { Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => const homeScreen()),
-                  );},
+                onPressed: () {
+                  // Navigator.push(
+                  //   context,
+                  //   MaterialPageRoute(builder: (context) => const homeScreen()),
+                  // );
+                },
                 style: TextButton.styleFrom(
                     backgroundColor: Colors.pink.shade100,
                     shape: new RoundedRectangleBorder(

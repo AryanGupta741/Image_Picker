@@ -18,11 +18,11 @@ class _splash_screenState extends State<splash_screen> {
   void initState() {
     super.initState();
     Timer(Duration(seconds: 4), () {
-      Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(
-            builder: (context) => Login(),
-          ));
+      // Navigator.pushReplacement(
+      //     context,
+      //     MaterialPageRoute(
+      //       builder: (context) => Login(),
+      //     ));
     });
   }
 
